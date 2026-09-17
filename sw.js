@@ -1,8 +1,9 @@
 /* ═══════════════════════════════════════════════════════════════
    Service Worker - قسم الأكياس (محسّن)
+   الإصدار: akyas-v1.0.0
    ═══════════════════════════════════════════════════════════════ */
 
-const CACHE_VERSION = 'akyas-v1.0.0';           // ← اسم مختلف
+const CACHE_VERSION = 'akyas-v1.0.0';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const FONTS_CACHE = `${CACHE_VERSION}-fonts`;
@@ -52,7 +53,6 @@ self.addEventListener('activate', (event) => {
         return Promise.all(
           cacheNames
             .filter(name => 
-              // ✅ فقط caches الخاصة بـ akyas
               name.startsWith('akyas-') && 
               name !== STATIC_CACHE && 
               name !== RUNTIME_CACHE && 
