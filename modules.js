@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════
-   نظام إدارة قسم الحبل - مصنع الصندل
+   نظام إدارة قسم الأكياس - مصنع الصندل
    modules.js - Dashboard + Sales + Customers + Suppliers
                 + Warehouse + Treasury + Expenses
    ═══════════════════════════════════════════════════════════════ */
@@ -882,7 +882,7 @@ async function viewSaleDetails(saleId) {
           <h2 style="font-size:20px;font-weight:800;color:var(--text);margin-bottom:4px;">
             مصنع الصندل للأوعية البلاستيكية
           </h2>
-          <p style="color:var(--text-2);font-size:13px;margin:0;">قسم الحبل</p>
+          <p style="color:var(--text-2);font-size:13px;margin:0;">قسم الأكياس</p>
           <h3 style="font-size:16px;font-weight:700;color:var(--accent);margin-top:8px;">فاتورة مبيعات</h3>
         </div>
 
@@ -1219,7 +1219,7 @@ async function viewCustomerStatement(id) {
           <h2 style="font-size:20px;font-weight:800;color:var(--text);margin-bottom:4px;">
             مصنع الصندل للأوعية البلاستيكية
           </h2>
-          <p style="color:var(--text-2);font-size:13px;margin:0;">قسم الحبل</p>
+          <p style="color:var(--text-2);font-size:13px;margin:0;">قسم الأكياس</p>
           <h3 style="font-size:16px;font-weight:700;color:var(--accent);margin-top:8px;">كشف حساب عميل</h3>
         </div>
 
