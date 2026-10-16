@@ -1,9 +1,9 @@
 /* ═══════════════════════════════════════════════════════════════
    Service Worker - قسم الأكياس (محسّن)
-   الإصدار: akyas-v1.0.0
+   الإصدار: akyas-v1.0.1
    ═══════════════════════════════════════════════════════════════ */
 
-const CACHE_VERSION = 'akyas-v1.0.0';
+const CACHE_VERSION = 'akyas-v1.0.1';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const FONTS_CACHE = `${CACHE_VERSION}-fonts`;
@@ -20,7 +20,8 @@ const PRECACHE_URLS = [
   './advanced.js',
   './reports.js',
   './manifest.json',
-  './offline.html'
+  './offline.html',
+  './assets/logo.png'
 ];
 
 /* ─────────── التثبيت ─────────── */
